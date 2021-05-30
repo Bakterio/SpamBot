@@ -9,7 +9,7 @@ import java.awt.event.KeyEvent;
 public class Spam {
     private static final JFrame frame = new JFrame("Spamovací program:");
     private static final JPanel panel = new JPanel();
-    public static void spam(){
+    public static void spam(){ //V rámci učení se aj používám aj názvy pro proměné.
         Position();
         Center(frame);
         CotrolingStuff();
